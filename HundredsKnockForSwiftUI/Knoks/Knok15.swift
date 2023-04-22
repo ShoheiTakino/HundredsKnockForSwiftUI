@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// iOS15以降
 struct Knok15: View {
     @State private var showingAlert = false
     
