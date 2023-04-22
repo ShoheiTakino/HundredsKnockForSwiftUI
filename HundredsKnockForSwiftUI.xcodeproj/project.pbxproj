@@ -29,6 +29,10 @@
 		5D8C26AC29F43D3F004955D0 /* Knok14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26AB29F43D3F004955D0 /* Knok14.swift */; };
 		5D8C26AE29F43EDC004955D0 /* Knok15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26AD29F43EDC004955D0 /* Knok15.swift */; };
 		5D8C26B029F440BF004955D0 /* Knok16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26AF29F440BF004955D0 /* Knok16.swift */; };
+		5D8C26B229F492FC004955D0 /* Knok17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26B129F492FC004955D0 /* Knok17.swift */; };
+		5D8C26B429F4948F004955D0 /* Knok18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26B329F4948F004955D0 /* Knok18.swift */; };
+		5D8C26B629F4A393004955D0 /* Knok19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26B529F4A393004955D0 /* Knok19.swift */; };
+		5D8C26B829F4AAAB004955D0 /* Knok20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26B729F4AAAB004955D0 /* Knok20.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,10 @@
 		5D8C26AB29F43D3F004955D0 /* Knok14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok14.swift; sourceTree = "<group>"; };
 		5D8C26AD29F43EDC004955D0 /* Knok15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok15.swift; sourceTree = "<group>"; };
 		5D8C26AF29F440BF004955D0 /* Knok16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok16.swift; sourceTree = "<group>"; };
+		5D8C26B129F492FC004955D0 /* Knok17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok17.swift; sourceTree = "<group>"; };
+		5D8C26B329F4948F004955D0 /* Knok18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok18.swift; sourceTree = "<group>"; };
+		5D8C26B529F4A393004955D0 /* Knok19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok19.swift; sourceTree = "<group>"; };
+		5D8C26B729F4AAAB004955D0 /* Knok20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok20.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +184,10 @@
 				5D8C26AB29F43D3F004955D0 /* Knok14.swift */,
 				5D8C26AD29F43EDC004955D0 /* Knok15.swift */,
 				5D8C26AF29F440BF004955D0 /* Knok16.swift */,
+				5D8C26B129F492FC004955D0 /* Knok17.swift */,
+				5D8C26B329F4948F004955D0 /* Knok18.swift */,
+				5D8C26B529F4A393004955D0 /* Knok19.swift */,
+				5D8C26B729F4AAAB004955D0 /* Knok20.swift */,
 			);
 			path = Knoks;
 			sourceTree = "<group>";
@@ -311,13 +323,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D8C26AE29F43EDC004955D0 /* Knok15.swift in Sources */,
+				5D8C26B829F4AAAB004955D0 /* Knok20.swift in Sources */,
 				5D8C26AA29F43C6B004955D0 /* Knok13.swift in Sources */,
 				5D8C26A029F42F56004955D0 /* Knok8.swift in Sources */,
 				5D8C269E29F42627004955D0 /* Knok7.swift in Sources */,
+				5D8C26B629F4A393004955D0 /* Knok19.swift in Sources */,
 				5D8C269829F42101004955D0 /* Knok4.swift in Sources */,
 				5D8C269629F41F73004955D0 /* Knok3.swift in Sources */,
 				5D8C269229F41C32004955D0 /* Knok1.swift in Sources */,
 				5D8C266729F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift in Sources */,
+				5D8C26B229F492FC004955D0 /* Knok17.swift in Sources */,
 				5D8C26A429F436FF004955D0 /* Knok10.swift in Sources */,
 				5D8C269A29F422D0004955D0 /* Knok5.swift in Sources */,
 				5D8C26A629F4381E004955D0 /* Knok11.swift in Sources */,
@@ -326,6 +341,7 @@
 				5D8C269C29F42465004955D0 /* Knok6.swift in Sources */,
 				5D8C26A829F43B0C004955D0 /* Knok12.swift in Sources */,
 				5D8C26AC29F43D3F004955D0 /* Knok14.swift in Sources */,
+				5D8C26B429F4948F004955D0 /* Knok18.swift in Sources */,
 				5D8C26B029F440BF004955D0 /* Knok16.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
