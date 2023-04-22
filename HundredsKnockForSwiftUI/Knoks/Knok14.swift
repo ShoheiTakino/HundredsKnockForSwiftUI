@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// iOS14未満
 struct Knok14: View {
     @State private var showingAlert = false
     
