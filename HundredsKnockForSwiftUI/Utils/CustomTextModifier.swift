@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CustomTextModifier: ViewModifier {
+    
     func body(content: Content) -> some View {
         content
             .font(.system(size: 24, weight: .bold, design: .rounded))

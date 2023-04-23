@@ -12,4 +12,9 @@ extension View {
     func customTextStyle() -> some View {
         self.modifier(CustomTextModifier())
     }
+    
+    /// 影をつけるためのcustomModefiler
+    func customShadowStyle() -> some View {
+        self.modifier(CustomShadowModifier())
+    }
 }
