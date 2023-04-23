@@ -20,7 +20,7 @@ struct Knok7: View {
             Text("選択値：\(list[selection])")
             Picker(selection: $selection, label:
                 Text("フルーツを選択")) {
-                ForEach(0..<list.count) { index in
+                ForEach(0..<list.count, id: \.self) { index in
                     Text(list[index]).tag(index)
                 }
             }.pickerStyle(.wheel)
