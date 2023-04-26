@@ -44,6 +44,14 @@
 		5D8C26CC29F50265004955D0 /* Knok26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26CB29F50265004955D0 /* Knok26.swift */; };
 		5D8C26CE29F50641004955D0 /* Knok27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26CD29F50641004955D0 /* Knok27.swift */; };
 		5D8C26D029F50A2E004955D0 /* Knok28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C26CF29F50A2E004955D0 /* Knok28.swift */; };
+		5D8C272E29F94ABC004955D0 /* Knok29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C272D29F94ABC004955D0 /* Knok29.swift */; };
+		5D8C273029F94FD7004955D0 /* Knok30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C272F29F94FD7004955D0 /* Knok30.swift */; };
+		5D8C273229F950A3004955D0 /* Knok31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273129F950A3004955D0 /* Knok31.swift */; };
+		5D8C273429F95129004955D0 /* Knok32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273329F95129004955D0 /* Knok32.swift */; };
+		5D8C273629F953F0004955D0 /* Knok33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273529F953F0004955D0 /* Knok33.swift */; };
+		5D8C273829F9557D004955D0 /* Knok34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273729F9557D004955D0 /* Knok34.swift */; };
+		5D8C273A29F95716004955D0 /* Knok35.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273929F95716004955D0 /* Knok35.swift */; };
+		5D8C273C29F959AD004955D0 /* Knok36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273B29F959AD004955D0 /* Knok36.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +112,14 @@
 		5D8C26CB29F50265004955D0 /* Knok26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok26.swift; sourceTree = "<group>"; };
 		5D8C26CD29F50641004955D0 /* Knok27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok27.swift; sourceTree = "<group>"; };
 		5D8C26CF29F50A2E004955D0 /* Knok28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok28.swift; sourceTree = "<group>"; };
+		5D8C272D29F94ABC004955D0 /* Knok29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok29.swift; sourceTree = "<group>"; };
+		5D8C272F29F94FD7004955D0 /* Knok30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok30.swift; sourceTree = "<group>"; };
+		5D8C273129F950A3004955D0 /* Knok31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok31.swift; sourceTree = "<group>"; };
+		5D8C273329F95129004955D0 /* Knok32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok32.swift; sourceTree = "<group>"; };
+		5D8C273529F953F0004955D0 /* Knok33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok33.swift; sourceTree = "<group>"; };
+		5D8C273729F9557D004955D0 /* Knok34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok34.swift; sourceTree = "<group>"; };
+		5D8C273929F95716004955D0 /* Knok35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok35.swift; sourceTree = "<group>"; };
+		5D8C273B29F959AD004955D0 /* Knok36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok36.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +236,14 @@
 				5D8C26CB29F50265004955D0 /* Knok26.swift */,
 				5D8C26CD29F50641004955D0 /* Knok27.swift */,
 				5D8C26CF29F50A2E004955D0 /* Knok28.swift */,
+				5D8C272D29F94ABC004955D0 /* Knok29.swift */,
+				5D8C272F29F94FD7004955D0 /* Knok30.swift */,
+				5D8C273129F950A3004955D0 /* Knok31.swift */,
+				5D8C273329F95129004955D0 /* Knok32.swift */,
+				5D8C273529F953F0004955D0 /* Knok33.swift */,
+				5D8C273729F9557D004955D0 /* Knok34.swift */,
+				5D8C273929F95716004955D0 /* Knok35.swift */,
+				5D8C273B29F959AD004955D0 /* Knok36.swift */,
 			);
 			path = Knoks;
 			sourceTree = "<group>";
@@ -374,11 +398,14 @@
 				5D8C26CE29F50641004955D0 /* Knok27.swift in Sources */,
 				5D8C26AE29F43EDC004955D0 /* Knok15.swift in Sources */,
 				5D8C26C829F4F6D1004955D0 /* CustomShadowModifier.swift in Sources */,
+				5D8C273C29F959AD004955D0 /* Knok36.swift in Sources */,
+				5D8C273229F950A3004955D0 /* Knok31.swift in Sources */,
 				5D8C26B829F4AAAB004955D0 /* Knok20.swift in Sources */,
 				5D8C26D029F50A2E004955D0 /* Knok28.swift in Sources */,
 				5D8C26CA29F4F911004955D0 /* Knok25.swift in Sources */,
 				5D8C26C629F4F4CD004955D0 /* CustomTextModifier.swift in Sources */,
 				5D8C26AA29F43C6B004955D0 /* Knok13.swift in Sources */,
+				5D8C273629F953F0004955D0 /* Knok33.swift in Sources */,
 				5D8C26A029F42F56004955D0 /* Knok8.swift in Sources */,
 				5D8C269E29F42627004955D0 /* Knok7.swift in Sources */,
 				5D8C26B629F4A393004955D0 /* Knok19.swift in Sources */,
@@ -386,8 +413,11 @@
 				5D8C26BE29F4B2C2004955D0 /* Knok23.swift in Sources */,
 				5D8C26C329F4F49D004955D0 /* View+.swift in Sources */,
 				5D8C269829F42101004955D0 /* Knok4.swift in Sources */,
+				5D8C273029F94FD7004955D0 /* Knok30.swift in Sources */,
 				5D8C269629F41F73004955D0 /* Knok3.swift in Sources */,
+				5D8C273829F9557D004955D0 /* Knok34.swift in Sources */,
 				5D8C269229F41C32004955D0 /* Knok1.swift in Sources */,
+				5D8C273429F95129004955D0 /* Knok32.swift in Sources */,
 				5D8C266729F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift in Sources */,
 				5D8C26B229F492FC004955D0 /* Knok17.swift in Sources */,
 				5D8C26C029F4B51E004955D0 /* Knok24.swift in Sources */,
@@ -399,6 +429,8 @@
 				5D8C269C29F42465004955D0 /* Knok6.swift in Sources */,
 				5D8C26A829F43B0C004955D0 /* Knok12.swift in Sources */,
 				5D8C26AC29F43D3F004955D0 /* Knok14.swift in Sources */,
+				5D8C272E29F94ABC004955D0 /* Knok29.swift in Sources */,
+				5D8C273A29F95716004955D0 /* Knok35.swift in Sources */,
 				5D8C26BA29F4AE91004955D0 /* Knok21.swift in Sources */,
 				5D8C26B429F4948F004955D0 /* Knok18.swift in Sources */,
 				5D8C26CC29F50265004955D0 /* Knok26.swift in Sources */,
