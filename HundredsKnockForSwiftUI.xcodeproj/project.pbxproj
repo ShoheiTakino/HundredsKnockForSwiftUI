@@ -54,6 +54,7 @@
 		5D8C273C29F959AD004955D0 /* Knok36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273B29F959AD004955D0 /* Knok36.swift */; };
 		5D8C273E29F96AC1004955D0 /* Knok37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273D29F96AC1004955D0 /* Knok37.swift */; };
 		5D8C274029F96CBE004955D0 /* Knok38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273F29F96CBE004955D0 /* Knok38.swift */; };
+		5D8C274229FA95BA004955D0 /* Knok39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C274129FA95BA004955D0 /* Knok39.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		5D8C273B29F959AD004955D0 /* Knok36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok36.swift; sourceTree = "<group>"; };
 		5D8C273D29F96AC1004955D0 /* Knok37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok37.swift; sourceTree = "<group>"; };
 		5D8C273F29F96CBE004955D0 /* Knok38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok38.swift; sourceTree = "<group>"; };
+		5D8C274129FA95BA004955D0 /* Knok39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok39.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 				5D8C273B29F959AD004955D0 /* Knok36.swift */,
 				5D8C273D29F96AC1004955D0 /* Knok37.swift */,
 				5D8C273F29F96CBE004955D0 /* Knok38.swift */,
+				5D8C274129FA95BA004955D0 /* Knok39.swift */,
 			);
 			path = Knoks;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				5D8C26B629F4A393004955D0 /* Knok19.swift in Sources */,
 				5D8C26BC29F4B0FF004955D0 /* Knok22.swift in Sources */,
 				5D8C26BE29F4B2C2004955D0 /* Knok23.swift in Sources */,
+				5D8C274229FA95BA004955D0 /* Knok39.swift in Sources */,
 				5D8C26C329F4F49D004955D0 /* View+.swift in Sources */,
 				5D8C273E29F96AC1004955D0 /* Knok37.swift in Sources */,
 				5D8C269829F42101004955D0 /* Knok4.swift in Sources */,
