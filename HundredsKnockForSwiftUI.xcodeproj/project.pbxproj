@@ -52,6 +52,8 @@
 		5D8C273829F9557D004955D0 /* Knok34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273729F9557D004955D0 /* Knok34.swift */; };
 		5D8C273A29F95716004955D0 /* Knok35.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273929F95716004955D0 /* Knok35.swift */; };
 		5D8C273C29F959AD004955D0 /* Knok36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273B29F959AD004955D0 /* Knok36.swift */; };
+		5D8C273E29F96AC1004955D0 /* Knok37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273D29F96AC1004955D0 /* Knok37.swift */; };
+		5D8C274029F96CBE004955D0 /* Knok38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C273F29F96CBE004955D0 /* Knok38.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,8 @@
 		5D8C273729F9557D004955D0 /* Knok34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok34.swift; sourceTree = "<group>"; };
 		5D8C273929F95716004955D0 /* Knok35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok35.swift; sourceTree = "<group>"; };
 		5D8C273B29F959AD004955D0 /* Knok36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok36.swift; sourceTree = "<group>"; };
+		5D8C273D29F96AC1004955D0 /* Knok37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok37.swift; sourceTree = "<group>"; };
+		5D8C273F29F96CBE004955D0 /* Knok38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok38.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +248,8 @@
 				5D8C273729F9557D004955D0 /* Knok34.swift */,
 				5D8C273929F95716004955D0 /* Knok35.swift */,
 				5D8C273B29F959AD004955D0 /* Knok36.swift */,
+				5D8C273D29F96AC1004955D0 /* Knok37.swift */,
+				5D8C273F29F96CBE004955D0 /* Knok38.swift */,
 			);
 			path = Knoks;
 			sourceTree = "<group>";
@@ -412,6 +418,7 @@
 				5D8C26BC29F4B0FF004955D0 /* Knok22.swift in Sources */,
 				5D8C26BE29F4B2C2004955D0 /* Knok23.swift in Sources */,
 				5D8C26C329F4F49D004955D0 /* View+.swift in Sources */,
+				5D8C273E29F96AC1004955D0 /* Knok37.swift in Sources */,
 				5D8C269829F42101004955D0 /* Knok4.swift in Sources */,
 				5D8C273029F94FD7004955D0 /* Knok30.swift in Sources */,
 				5D8C269629F41F73004955D0 /* Knok3.swift in Sources */,
@@ -425,6 +432,7 @@
 				5D8C269A29F422D0004955D0 /* Knok5.swift in Sources */,
 				5D8C26A629F4381E004955D0 /* Knok11.swift in Sources */,
 				5D8C26A229F43136004955D0 /* Knok9.swift in Sources */,
+				5D8C274029F96CBE004955D0 /* Knok38.swift in Sources */,
 				5D8C269429F41EDD004955D0 /* Knok2.swift in Sources */,
 				5D8C269C29F42465004955D0 /* Knok6.swift in Sources */,
 				5D8C26A829F43B0C004955D0 /* Knok12.swift in Sources */,
