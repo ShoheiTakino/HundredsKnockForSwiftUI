@@ -10,6 +10,8 @@
 		5D32C8B929FFDEB100DFB2C5 /* Knok42.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8B829FFDEB100DFB2C5 /* Knok42.swift */; };
 		5D32C8BB29FFE7AE00DFB2C5 /* Knok43.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8BA29FFE7AE00DFB2C5 /* Knok43.swift */; };
 		5D32C8BD29FFEBCE00DFB2C5 /* Knok46.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8BC29FFEBCE00DFB2C5 /* Knok46.swift */; };
+		5D32C8BF29FFF20F00DFB2C5 /* Knok47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */; };
+		5D32C8C129FFF3DE00DFB2C5 /* Knok48.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */; };
 		5D8C266729F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C266629F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift */; };
 		5D8C266B29F41B63004955D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8C266A29F41B63004955D0 /* Assets.xcassets */; };
 		5D8C266E29F41B63004955D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8C266D29F41B63004955D0 /* Preview Assets.xcassets */; };
@@ -82,6 +84,8 @@
 		5D32C8B829FFDEB100DFB2C5 /* Knok42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok42.swift; sourceTree = "<group>"; };
 		5D32C8BA29FFE7AE00DFB2C5 /* Knok43.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok43.swift; sourceTree = "<group>"; };
 		5D32C8BC29FFEBCE00DFB2C5 /* Knok46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok46.swift; sourceTree = "<group>"; };
+		5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok47.swift; sourceTree = "<group>"; };
+		5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok48.swift; sourceTree = "<group>"; };
 		5D8C266329F41B62004955D0 /* HundredsKnockForSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundredsKnockForSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8C266629F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredsKnockForSwiftUIApp.swift; sourceTree = "<group>"; };
 		5D8C266A29F41B63004955D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -265,6 +269,8 @@
 				5D32C8B829FFDEB100DFB2C5 /* Knok42.swift */,
 				5D32C8BA29FFE7AE00DFB2C5 /* Knok43.swift */,
 				5D32C8BC29FFEBCE00DFB2C5 /* Knok46.swift */,
+				5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */,
+				5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */,
 			);
 			path = Knoks;
 			sourceTree = "<group>";
@@ -423,6 +429,7 @@
 				5D8C273C29F959AD004955D0 /* Knok36.swift in Sources */,
 				5D8C273229F950A3004955D0 /* Knok31.swift in Sources */,
 				5D8C26B829F4AAAB004955D0 /* Knok20.swift in Sources */,
+				5D32C8C129FFF3DE00DFB2C5 /* Knok48.swift in Sources */,
 				5D32C8BD29FFEBCE00DFB2C5 /* Knok46.swift in Sources */,
 				5D8C26D029F50A2E004955D0 /* Knok28.swift in Sources */,
 				5D8C26CA29F4F911004955D0 /* Knok25.swift in Sources */,
@@ -453,6 +460,7 @@
 				5D8C26A229F43136004955D0 /* Knok9.swift in Sources */,
 				5D8C274029F96CBE004955D0 /* Knok38.swift in Sources */,
 				5D8C269429F41EDD004955D0 /* Knok2.swift in Sources */,
+				5D32C8BF29FFF20F00DFB2C5 /* Knok47.swift in Sources */,
 				5D8C269C29F42465004955D0 /* Knok6.swift in Sources */,
 				5D8C26A829F43B0C004955D0 /* Knok12.swift in Sources */,
 				5D8C26AC29F43D3F004955D0 /* Knok14.swift in Sources */,
