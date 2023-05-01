@@ -11,7 +11,7 @@ import SwiftUI
 struct HundredsKnockForSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            Knok40()
+            Knok46()
         }
     }
 }
