@@ -8,10 +8,36 @@
 import SwiftUI
 
 struct Knok39: View {
+    @State private var isTapped = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            self.isTapped = true
+        } label: {
+            Text("タップ")
+        }
+        .sheet(isPresented: $isTapped) {
+            fullScreenView()
+        }
     }
 }
+struct fullScreenView: View {
+    @State private var isTapped = false
+
+    var body: some View {
+        Button {
+            self.isTapped = true
+        } label: {
+            Text("タップ")
+        }
+        .fullScreenCover(isPresented: $isTapped, content: {
+            Text("閉じれないよ")
+        })
+    }
+}
+
+// 模範解答(ViewController使用してるからあまり参考にしたくはない。)
+// https://swiswiswift.com/2020-05-13/
 
 struct Knok39_Previews: PreviewProvider {
     static var previews: some View {
