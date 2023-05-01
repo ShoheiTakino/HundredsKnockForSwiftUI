@@ -12,6 +12,7 @@
 		5D32C8BD29FFEBCE00DFB2C5 /* Knok46.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8BC29FFEBCE00DFB2C5 /* Knok46.swift */; };
 		5D32C8BF29FFF20F00DFB2C5 /* Knok47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */; };
 		5D32C8C129FFF3DE00DFB2C5 /* Knok48.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */; };
+		5D32C8C329FFF74100DFB2C5 /* Knok49.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C229FFF74100DFB2C5 /* Knok49.swift */; };
 		5D8C266729F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C266629F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift */; };
 		5D8C266B29F41B63004955D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8C266A29F41B63004955D0 /* Assets.xcassets */; };
 		5D8C266E29F41B63004955D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8C266D29F41B63004955D0 /* Preview Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		5D32C8BC29FFEBCE00DFB2C5 /* Knok46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok46.swift; sourceTree = "<group>"; };
 		5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok47.swift; sourceTree = "<group>"; };
 		5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok48.swift; sourceTree = "<group>"; };
+		5D32C8C229FFF74100DFB2C5 /* Knok49.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok49.swift; sourceTree = "<group>"; };
 		5D8C266329F41B62004955D0 /* HundredsKnockForSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundredsKnockForSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8C266629F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredsKnockForSwiftUIApp.swift; sourceTree = "<group>"; };
 		5D8C266A29F41B63004955D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				5D32C8BC29FFEBCE00DFB2C5 /* Knok46.swift */,
 				5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */,
 				5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */,
+				5D32C8C229FFF74100DFB2C5 /* Knok49.swift */,
 			);
 			path = Knoks;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				5D8C26C329F4F49D004955D0 /* View+.swift in Sources */,
 				5D8C273E29F96AC1004955D0 /* Knok37.swift in Sources */,
 				5D8C269829F42101004955D0 /* Knok4.swift in Sources */,
+				5D32C8C329FFF74100DFB2C5 /* Knok49.swift in Sources */,
 				5D8C273029F94FD7004955D0 /* Knok30.swift in Sources */,
 				5D8C269629F41F73004955D0 /* Knok3.swift in Sources */,
 				5D8C273829F9557D004955D0 /* Knok34.swift in Sources */,
