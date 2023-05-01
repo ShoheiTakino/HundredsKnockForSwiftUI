@@ -62,7 +62,7 @@ fileprivate struct GithubAPI {
         }
 }
 
-fileprivate struct GithubSearchResult: Codable {
+struct GithubSearchResult: Codable {
     let items: [Repository]
 }
 
