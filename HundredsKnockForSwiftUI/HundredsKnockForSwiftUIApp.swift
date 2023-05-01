@@ -11,7 +11,7 @@ import SwiftUI
 struct HundredsKnockForSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            Knok37(imageNames: ["penguin","penguin","penguin","penguin","penguin"])
+            Knok40()
         }
     }
 }
