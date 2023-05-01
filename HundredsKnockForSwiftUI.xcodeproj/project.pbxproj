@@ -13,6 +13,9 @@
 		5D32C8BF29FFF20F00DFB2C5 /* Knok47.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */; };
 		5D32C8C129FFF3DE00DFB2C5 /* Knok48.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */; };
 		5D32C8C329FFF74100DFB2C5 /* Knok49.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C229FFF74100DFB2C5 /* Knok49.swift */; };
+		5D32C8C529FFF95C00DFB2C5 /* Knok50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C429FFF95C00DFB2C5 /* Knok50.swift */; };
+		5D32C8C729FFF96F00DFB2C5 /* Knok44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C629FFF96F00DFB2C5 /* Knok44.swift */; };
+		5D32C8C929FFF97A00DFB2C5 /* Knok45.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32C8C829FFF97A00DFB2C5 /* Knok45.swift */; };
 		5D8C266729F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8C266629F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift */; };
 		5D8C266B29F41B63004955D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8C266A29F41B63004955D0 /* Assets.xcassets */; };
 		5D8C266E29F41B63004955D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D8C266D29F41B63004955D0 /* Preview Assets.xcassets */; };
@@ -88,6 +91,9 @@
 		5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok47.swift; sourceTree = "<group>"; };
 		5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok48.swift; sourceTree = "<group>"; };
 		5D32C8C229FFF74100DFB2C5 /* Knok49.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok49.swift; sourceTree = "<group>"; };
+		5D32C8C429FFF95C00DFB2C5 /* Knok50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok50.swift; sourceTree = "<group>"; };
+		5D32C8C629FFF96F00DFB2C5 /* Knok44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok44.swift; sourceTree = "<group>"; };
+		5D32C8C829FFF97A00DFB2C5 /* Knok45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knok45.swift; sourceTree = "<group>"; };
 		5D8C266329F41B62004955D0 /* HundredsKnockForSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundredsKnockForSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8C266629F41B62004955D0 /* HundredsKnockForSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredsKnockForSwiftUIApp.swift; sourceTree = "<group>"; };
 		5D8C266A29F41B63004955D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -270,10 +276,13 @@
 				5D8C278229FFD7AE004955D0 /* Knok40.swift */,
 				5D32C8B829FFDEB100DFB2C5 /* Knok42.swift */,
 				5D32C8BA29FFE7AE00DFB2C5 /* Knok43.swift */,
+				5D32C8C629FFF96F00DFB2C5 /* Knok44.swift */,
+				5D32C8C829FFF97A00DFB2C5 /* Knok45.swift */,
 				5D32C8BC29FFEBCE00DFB2C5 /* Knok46.swift */,
 				5D32C8BE29FFF20F00DFB2C5 /* Knok47.swift */,
 				5D32C8C029FFF3DE00DFB2C5 /* Knok48.swift */,
 				5D32C8C229FFF74100DFB2C5 /* Knok49.swift */,
+				5D32C8C429FFF95C00DFB2C5 /* Knok50.swift */,
 			);
 			path = Knoks;
 			sourceTree = "<group>";
@@ -444,6 +453,7 @@
 				5D8C26B629F4A393004955D0 /* Knok19.swift in Sources */,
 				5D8C26BC29F4B0FF004955D0 /* Knok22.swift in Sources */,
 				5D8C26BE29F4B2C2004955D0 /* Knok23.swift in Sources */,
+				5D32C8C929FFF97A00DFB2C5 /* Knok45.swift in Sources */,
 				5D8C274229FA95BA004955D0 /* Knok39.swift in Sources */,
 				5D8C26C329F4F49D004955D0 /* View+.swift in Sources */,
 				5D8C273E29F96AC1004955D0 /* Knok37.swift in Sources */,
@@ -474,6 +484,8 @@
 				5D8C26B429F4948F004955D0 /* Knok18.swift in Sources */,
 				5D8C26CC29F50265004955D0 /* Knok26.swift in Sources */,
 				5D8C278329FFD7AE004955D0 /* Knok40.swift in Sources */,
+				5D32C8C529FFF95C00DFB2C5 /* Knok50.swift in Sources */,
+				5D32C8C729FFF96F00DFB2C5 /* Knok44.swift in Sources */,
 				5D8C26B029F440BF004955D0 /* Knok16.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
