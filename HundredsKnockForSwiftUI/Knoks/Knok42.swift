@@ -6,17 +6,14 @@
 //
 
 import SwiftUI
-import Combine
 
-/// コンプリーション使用しないようにする
+/// 一旦模範解答通り作成してみる
 struct Knok42: View {
     
     @State private var repositories: [Repository] = []
     @State private var showingAlert = false
     @State private var errorMessage = ""
-    @State private var subscriptions = Set<AnyCancellable>()
-    private var viewModel = Knok42ViewModel()
-    
+
     var body: some View {
         List {
             ForEach(repositories) { item in
@@ -29,44 +26,62 @@ struct Knok42: View {
             }
         }
         .onAppear {
-            GithubAPI.searchRepos(page: 1, perPage: 30)
-                .sink(receiveCompletion: { completion in
-                    switch completion {
-                    case .finished:
-                        break
-                    case let .failure(error):
-                        self.showingAlert = true
-                        self.errorMessage = error.localizedDescription
-                    }
-                }, receiveValue: { repositories in
-                    self.repositories = repositories
-                })
-                .store(in: &self.subscriptions)
+            GithubAPI.searchRepos(page: 1, perPage: 30) { result in
+                            switch result {
+                            case let .success(repositories):
+                                DispatchQueue.main.async {
+                                    self.repositories = repositories
+                                }
+                            case let .failure(error):
+                                DispatchQueue.main.async {
+                                 
+                                    self.showingAlert = true
+                                }
+                            }
+                        }
         }
     }
 }
 
-fileprivate struct Knok42ViewModel {
-    private var repositories: [Repository] = []
-    
-    static func fetchGithub() {
-        
-    }
-}
-
 fileprivate struct GithubAPI {
-    static func searchRepos(page: Int, perPage: Int) -> AnyPublisher<[Repository], Error> {
-        let url = URL(string: "https://api.github.com/search/repositories?q=swift&sort=stars&page=\(page)&per_page=\(perPage)")!
-        return URLSession.shared
-            .dataTaskPublisher(for: url)
-            .tryMap { try JSONDecoder().decode(GithubSearchResult.self, from: $0.data).items }
-            .receive(on: DispatchQueue.main)
-            .eraseToAnyPublisher()
+    static func searchRepos(page: Int, perPage: Int, completion: @escaping (Result<[Repository], Error>) -> Void) {
+            let url = URL(string: "https://api.github.com/search/repositories?q=swift&sort=stars&page=\(page)&per_page=\(perPage)")!
+            let task = URLSession.shared.dataTask(with: url){ data, response, error in
+                if let error = error {
+                    completion(Result.failure(error))
+                    return
+                }
+                do {
+                    let repositories = try JSONDecoder().decode(GithubSearchResult.self, from: data!).items
+                    completion(Result.success(repositories))
+                } catch let error {
+                    completion(Result.failure(error))
+                }
+            }
+            task.resume()
+        }
+}
+
+struct GithubSearchResult: Codable {
+    let items: [Repository]
+}
+
+struct Repository: Codable, Identifiable, Equatable {
+    let id: Int
+    let name: String
+    let description: String?
+    let stargazersCount: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case description
+        case stargazersCount = "stargazers_count"
     }
 }
 
 
-struct Knok42_Previews: PreviewProvider {
+struct Knok41_Previews: PreviewProvider {
     static var previews: some View {
         Knok42()
     }
