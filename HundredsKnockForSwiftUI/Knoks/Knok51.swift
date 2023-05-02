@@ -13,12 +13,10 @@ struct Knok51: View {
             .padding()
             .contextMenu {
                 Button {
-                    // Add this item to a list of favorites.
                 } label: {
                     Label("Add to Favorites", systemImage: "heart")
                 }
                 Button {
-                    // Open Maps and center it on this item.
                 } label: {
                     Label("Show in Maps", systemImage: "mappin")
                 }
