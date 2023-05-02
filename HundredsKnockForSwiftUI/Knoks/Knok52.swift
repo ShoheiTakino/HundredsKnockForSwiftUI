@@ -63,6 +63,9 @@ struct AddView: View {
     }
 }
 
+// 模範解答
+// https://swiswiswift.com/2020-12-10/
+
 struct Knok52_Previews: PreviewProvider {
     static var previews: some View {
         Knok52()
